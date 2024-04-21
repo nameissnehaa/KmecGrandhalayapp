@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grandhalay_background"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/grandhalay_icon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"/>
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="345dp"
+        android:background="@drawable/rounded_corner"
+        android:ems="10"
+        android:hint="  Email"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:padding="8dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:drawableLeft="@drawable/email"/>
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="410dp"
+        android:background="@drawable/rounded_corner"
+        android:ems="10"
+        android:hint="  Password"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:padding="8dp"
+        android:drawableLeft="@drawable/lock"/>
+
+    <EditText
+        android:id="@+id/editTextText3"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="475dp"
+        android:background="@drawable/rounded_corner"
+        android:ems="10"
+        android:hint="  Confirm password"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:padding="8dp"
+        android:drawableLeft="@drawable/lock"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="550dp"
+        android:backgroundTint="@color/material_dynamic_primary60"
+        android:text="SIGN UP"
+        android:textColor="@color/white"
+        />
+
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/img_1" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="600dp"
+        android:text="Already a user?Login"
+        android:textColor="@android:color/darker_gray"
+        android:layout_marginLeft="100dp"
+        android:padding="8dp"
+        android:id="@+id/txtview"/>
+
+    <TextView
+        android:layout_width="500dp"
+        android:layout_height="100dp"
+        android:text="SIGNUP"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_marginTop="175dp"
+        android:layout_marginLeft="143dp"
+        android:textStyle="normal"/>
+
+
+
+
+
+</RelativeLayout>
+</layout>

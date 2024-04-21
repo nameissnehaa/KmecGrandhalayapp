@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "749851435586",
+    "project_id": "kmecgrandhalay-3d393",
+    "storage_bucket": "kmecgrandhalay-3d393.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:749851435586:android:e7f9e772802cedee6c43db",
+        "android_client_info": {
+          "package_name": "com.example.kmecgrandhalay"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUydbwOr_Z084WCiDe7n7QjsNEZd3IHhw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
